@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Posteos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <nav class="nav-container">
+    <div>
+       <a href="index.html" class="nav-item">POSTEOS-BACKEND
+    </div>
+    <div class="nav-right">
+       <a href="listadoDePosteos.html" class="nav-item">Listado de Posteos</a>  
+       <a href="crearUnPosteo.html" class="nav-item">Crear un Posteo</a>
+       <a href="modificarUnPosteo.html" class="nav-item">Modificar un Posteo</a>
+       <a href="eliminarUnPosteo.html" class="nav-item">Eliminar un posteo</a>
+    </div>
+</nav>
+
+<!-- Formulario para listar los posts -->
+ <form id="form-listar-posteo">
+ </form>
+
+ <h3>LISTADO DE POSTEOS</h3>
+<!--  Tabla para mostrar posteos -->
+  <table>
+    <thead>
+        <tr>
+           <th>Titulo</th>
+           <th>Contenido</th>
+        </tr>
+    </thead>
+    <tbody id="body-tabla-posteos">
+        <!--  Aca se agregaran los post -->
+    </tbody>
+  </table>
+<!--   cargar el CDN de Axios -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<!-- cargar el script principal -->
+<script src="./listadoDePosteos.js"></script>
+</body>
+</html>

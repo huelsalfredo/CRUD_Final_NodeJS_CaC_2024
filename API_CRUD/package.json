@@ -1,7 +1,7 @@
 {
   "name": "api_crud",
   "version": "1.0.0",
-  "description": "CORS\r ", //CORS: qué es y cómo funciona el cross-origin resource sharing\r Cuando se abre una página web, cargar datos de servidores ajenos está, en teoría, estrictamente prohibido. Sin embargo, puede haber excepciones: si los administradores de ambas webs han acordado trabajar juntos, no hay por qué evitar el intercambio. En estos casos, el llamado cross-origin resource sharing (CORS) regula la colaboración. Te explicamos cómo funciona.",
+  "description": "",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
